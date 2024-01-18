@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
 
-*{
+* {
     max-width: 1100px;
     margin: 0px auto;
     box-sizing: border-box;
@@ -88,7 +88,9 @@ section {
 
 /* popular section */
 
-.popular {
+.popular,
+.perfect-place,
+.newsletter {
     display: flex;
     gap: 50px;
 }
@@ -118,8 +120,25 @@ section {
     margin-top: 24px;
 }
 
-.destination-img img {
+.img-container img {
     width: 100%;
+}
+
+.img-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-text {
+    position: absolute;
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
 }
 
 /* choose section */
@@ -159,6 +178,29 @@ section {
     background: rgba(233, 68, 68, 0.05);
 }
 
+/* newsletter section */
+.newsletter-content {
+    width: 40%;
+    padding: 30px;
+
+}
+
+.newsletter-form>input {
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.newsletter-form>input,
+.newsletter-form>button {
+    width: 100%;
+    margin-top: 16px;
+    padding: 14px;
+}
+
 @media screen and (max-width:600px) {
     * {
         margin: 0px 15px;
@@ -166,7 +208,8 @@ section {
 
     section,
     .destination-content,
-    .choose-content {
+    .choose-content,
+    .perfect-place {
         margin-top: 24px;
         padding: 0px;
     }
@@ -180,7 +223,7 @@ section {
     .section-description {
         font-size: 14px;
         line-height: 20px;
-        margin:0pc 0px 14px 0px;
+        margin: 0pc 0px 14px 0px;
     }
 
     .banner {
@@ -194,7 +237,8 @@ section {
     .banner-details,
     .popular,
     .destination-img,
-    .choose-for {
+    .choose-for,
+    .perfect-place {
         flex-direction: column;
     }
 
@@ -202,7 +246,8 @@ section {
     .choose-for>div {
         width: 100%;
     }
-    .choose-for img{
-        width: 25%;
+
+    .choose-for img {
+        width: 30%;
     }
 }
