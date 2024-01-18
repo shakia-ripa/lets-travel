@@ -205,6 +205,12 @@ section {
         margin: 0px 15px;
     }
 
+    .btn-primary{
+        font-size: 12px;
+        font-weight: 400;
+        width: auto;
+    }
+
     section,
     .destination-content,
     .choose-content,
