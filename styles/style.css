@@ -202,4 +202,7 @@ section {
     .choose-for>div {
         width: 100%;
     }
+    .choose-for img{
+        width: 25%;
+    }
 }
