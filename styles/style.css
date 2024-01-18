@@ -24,7 +24,7 @@ section {
     margin-top: 100px;
 }
 
-.section-title {
+.section-title, .newsletter-title {
     color: #131318;
     text-align: center;
     font-size: 36px;
@@ -182,7 +182,6 @@ section {
 .newsletter-content {
     width: 40%;
     padding: 30px;
-
 }
 
 .newsletter-form>input {
@@ -214,7 +213,8 @@ section {
         padding: 0px;
     }
 
-    .section-title {
+    .section-title,
+    .newsletter-title {
         color: #131318;
         font-size: 20px;
         margin-bottom: 14px;
@@ -238,16 +238,37 @@ section {
     .popular,
     .destination-img,
     .choose-for,
-    .perfect-place {
+    .perfect-place,
+    .newsletter {
         flex-direction: column;
     }
 
     .popular-content,
+    .newsletter-content,
     .choose-for>div {
         width: 100%;
     }
 
+    .img-text,
+    .service-title{
+        font-size: 18px;
+        font-weight: 600;
+    }
+
     .choose-for img {
         width: 30%;
+    }
+
+    .newsletter-content{
+        padding: 0px;
+    }
+
+    .newsletter-form>input,
+    .newsletter-form>button,
+    .section-title,
+    .newsletter-title,
+    .section-description{
+        margin-left:0px;
+
     }
 }
