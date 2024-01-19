@@ -71,9 +71,10 @@ section {
 .banner-description {
     color: #FFF;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
-    padding: 20px 0px 30px;
+    margin: 0px;
+    padding-bottom: 30px;
 }
 
 .banner-details {
