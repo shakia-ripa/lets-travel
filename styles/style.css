@@ -89,6 +89,8 @@ section {
     border-radius: 5px;
     border: none;
     background: #FFF;
+    display: flex;
+    align-items: center;
 }
 
 .banner-details input{
