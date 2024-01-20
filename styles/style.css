@@ -6,6 +6,10 @@
     font-family: 'Mulish', sans-serif;
 }
 
+.hide{
+    display: none;
+}
+
 section,
 header {
     max-width: 1100px;
@@ -266,6 +270,13 @@ i {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 
+}
+
+.deals{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .location-1{
