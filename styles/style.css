@@ -47,6 +47,49 @@ section {
     margin-bottom: 30px;
 }
 
+/* navbar */
+
+nav,
+.nav-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: #FF5400;
+}
+
+.web-name {
+    color: #131318;
+    font-size: 21px;
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+.nav-links>ul {
+    display: flex;
+    gap: 24px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+}
+
+.home a {
+    color: #FF5400;
+}
+
+.menu {
+    display: none;
+}
+
 /* banner styles */
 
 .banner {
@@ -84,7 +127,9 @@ section {
     display: flex;
     gap: 10px;
 }
-.input-1, .input {
+
+.input-1,
+.input {
     padding: 8px;
     border-radius: 5px;
     border: none;
@@ -93,7 +138,7 @@ section {
     align-items: center;
 }
 
-.banner-details input{
+.banner-details input {
     border: none;
 }
 
@@ -116,7 +161,7 @@ section {
     position: relative;
 }
 
-.save{
+.save {
     position: relative;
     border: none;
     border-radius: 10px;
@@ -129,11 +174,12 @@ section {
     width: 45%;
     bottom: 150px;
     right: -350px;
-    rotate: -30deg;;
+    rotate: -30deg;
+    ;
 }
 
-.save-up{
-    font-size: 32px; 
+.save-up {
+    font-size: 32px;
     font-weight: 800;
 }
 
@@ -267,7 +313,7 @@ section {
     margin-bottom: 28px;
 }
 
-.social-links{
+.social-links {
     display: flex;
     gap: 24px;
 }
@@ -280,18 +326,20 @@ section {
     font-weight: 300;
     line-height: normal;
 }
-.line{
+
+.line {
     background: 2px solid rgba(19, 19, 24, 0.10);
     width: 80%;
     margin: 40px auto;
 }
 
 @media screen and (max-width:600px) {
+
     section,
     header {
         margin: 0px 15px;
     }
-    
+
 
     .btn-primary {
         font-size: 12px;
@@ -318,6 +366,14 @@ section {
         font-size: 14px;
         line-height: 20px;
         margin: 0pc 0px 14px 0px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .menu {
+        display: block;
     }
 
     .banner {
@@ -366,26 +422,29 @@ section {
         margin-left: 0px;
 
     }
+
     .footer-description,
-    .copyright{
+    .copyright {
         font-size: 14px;
     }
-    .social-links{
+
+    .social-links {
         display: flex;
         gap: 12px;
     }
 
-    .save{
-        
-        
-       font-size: 14px;
+    .save {
+
+
+        font-size: 14px;
         width: 50%;
         bottom: 110px;
         right: -190px;
-        rotate: -30deg;;
+        rotate: -30deg;
+        ;
     }
 
-    .save-up{
+    .save-up {
         font-size: 20px;
     }
 }
