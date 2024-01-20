@@ -441,6 +441,10 @@ nav,
         font-size: 23px;
     }
 
+    .tour{
+        width: 95%;
+    }
+
     .banner-details,
     .popular,
     .destination-img,
