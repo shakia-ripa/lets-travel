@@ -64,7 +64,8 @@ nav,
     align-items: center;
 }
 
-.logo {
+.logo,
+i {
     color: #FF5400;
 }
 
@@ -264,9 +265,61 @@ nav,
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
+
 }
 
-/*  */
+.location-1{
+    background: url('../Images/hotel1.png');
+}
+.location-2{
+    background: url('../Images/hotel2.png');
+    margin: 20px 0px;
+}
+.location-3{
+    background: url('../Images/santo.jpeg');
+}
+
+.location-1, 
+.location-2, 
+.location-3 {
+    border-radius: 15px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 56px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.destination-1 {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px;
+    width: 60%;
+}
+
+.status{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.status-text {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 8px;
+}
+
+.amount {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* tour  */
 .tour {
     background: linear-gradient(360deg, rgba(19, 19, 24, 0.60) 50%, rgba(19, 19, 24, 0.00) 100%), url("../Images/santorini.jpeg");
     padding: 100px 185px;
@@ -280,7 +333,7 @@ nav,
     align-items: center;
 }
 
-.tour-title{
+.tour-title {
     color: #FFF;
     font-size: 45px;
     font-weight: 700;
@@ -295,7 +348,7 @@ nav,
     padding-bottom: 30px;
 }
 
-.btn-tour{
+.btn-tour {
     border: none;
     border-radius: 50px;
     background: #FF5400;
@@ -307,7 +360,7 @@ nav,
     width: auto;
 }
 
-.btn-tour:hover{
+.btn-tour:hover {
     background: none;
     border: 1px solid #FF5400;
     color: #FF5400;
@@ -431,7 +484,8 @@ nav,
         display: block;
     }
 
-    .banner, .tour {
+    .banner,
+    .tour {
         padding: 32px 24px;
     }
 
@@ -441,7 +495,7 @@ nav,
         font-size: 23px;
     }
 
-    .tour{
+    .tour {
         width: 95%;
     }
 
@@ -492,6 +546,27 @@ nav,
     .social-links {
         display: flex;
         gap: 12px;
+    }
+
+    .location-1,
+    .location-2,
+    .location-3{
+        padding-top: 100px;
+        flex-direction: column;
+    }
+
+    .destination-1 {
+        border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+        padding: 16px;
+        width: 100%;
+    }
+
+    .status{
+        flex-wrap: wrap;
+        gap: 10px;
     }
 
     .save {
